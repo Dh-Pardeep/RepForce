@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    /* font family */
+    --ff-family-inter: 'Inter', sans-serif;
+
+    /* font size */
+    --font-size-4xl:40px;
+    --font-size-xxxl: 31px;
+    --font-size-xxl: 28px;
+    --font-size-xl: 18px;
+    --font-size-lg: 16px;
+    --font-size-md: 14px;
+    --font-size-sm: 12px;
+
+    /* font weight */
+
+    --font-weight-xxxl: 800;
+    --font-weight-xxl: 700;
+    --font-weight-xl: 600;
+    --font-weight-lg: 500;
+    --font-weight-md: 400;
+    --font-weight-sm: 300;
+
+    /* color */
+
+    --color-7C8: #7C8592;
+    --color-202: #202020;
+    --color-FFA: #FFAA2E;
+    --color-FF7: #FF713E;
+    --color-007: #007AFF;
+    --color-black: #000;
+    --color-white: #FFF;
+    --color-475: #475467;
+
+}
+/* color */
+
+.color_475{
+    color:var(--color-475)  !important;
+}
+.color_white{
+    color:var(--color-white)  !important;
+}
+.color_black{
+    color:var(--color-black) !important ;
+}
+.color_202{
+    color:var(--color-202) !important ;
+}
+.color_007{
+    color:var(--color-007) !important ;
+}
+.bg_007{
+    background-color:var(--color-007) !important ;
+}
+.color_7C8{
+    color:var(--color-7C8)  !important;
+}
+.color_FFA{
+    color:var(--color-FFA)  !important;
+}
+.color_FF7{
+    color:var(--color-FF7) !important ;
+}
+
+/* font family */
+.ff_inter {
+    font-family: var(--ff-family-inter) !important;
+}
+
+/* font size */
+
+
+.fs_64 {
+    font-size: var(--font-size-4xl) !important;
+}
+.fs_45 {
+    font-size: var(--font-size-xxxl) !important;
+}
+
+.fs_40 {
+    font-size: var(--font-size-xxl) !important;
+}
+
+.fs_25 {
+    font-size: var(--font-size-xl) !important;
+}
+
+.fs_18 {
+    font-size: var(--font-size-lg) !important;
+}
+
+.fs_14 {
+    font-size: var(--font-size-md) !important;
+}
+
+.fs_12 {
+    font-size: var(--font-size-sm) !important;
+}
+
+/* font weight */
+
+.fw_800 {
+    font-weight: var(--font-weight-xxxl) !important;
+}
+.fw_700 {
+    font-weight: var(--font-weight-xxl) !important;
+}
+
+.fw_600 {
+    font-weight: var(--font-weight-xl) !important;
+}
+
+.fw_500 {
+    font-weight: var(--font-weight-lg) !important;
+}
+
+.fw_400 {
+    font-weight: var(--font-weight-md) !important;
+}
+
+.fw_300 {
+    font-weight: var(--font-weight-sm) !important;
+}
+
+@media (min-width:575.9px) {
+    :root {
+        --font-size-4xl:44px;
+        --font-size-xxxl: 34px;
+        --font-size-xxl: 31px;
+    }
+}
+
+@media (min-width:767.9px) {
+    :root {
+        --font-size-4xl:52px;
+        --font-size-xxxl: 39px;
+        --font-size-xxl: 34px;
+        --font-size-xl: 20px;
+        --font-size-lg: 17px;
+    }
+}
+
+@media (min-width:991.9px) {
+    :root {
+        --font-size-4xl:54px;
+        --font-size-xxxl: 42px;
+        --font-size-xxl: 37px;
+        --font-size-xl: 22px;
+    }
+}
+
+@media (min-width:1199.9px) {
+    :root {
+        --font-size-4xl:64px;
+        --font-size-xxxl: 45px;
+        --font-size-xxl: 40px;
+        --font-size-xl: 25px;
+        --font-size-lg: 18px;
+    }
+}
