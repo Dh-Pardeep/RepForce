@@ -36,3 +36,7 @@ window.addEventListener('scroll', function() {
         navbar.classList.remove('navbar-scroll');
     }
 });
+
+$('.navbarbutton').click(function(){
+    $(this).addClass('active').siblings().removeClass('active');
+    });
