@@ -473,17 +473,33 @@ transform: translatex(-10px);
 
 .Managers-phone {
     right: 10%;
+    bottom: 24%;
 }
 
 .box-three-down {
     right: 2%;
 }
 
-/*  */
 .bg_help {
     background: linear-gradient(119deg, #F9FBFF 10.05%, #F1F7FF 91.13%);
 }
 
+.help_box:hover .help_traslateX{
+  transform: translateX(8px);
+}
+.help_box_two:hover .help_traslate_two{
+  transform: translatex(8px);
+}
+.help_box_three:hover .help_traslate_two{
+  transform: translatex(8px);
+}
+.for-Managers-down-img{
+    top: 11% !important;
+}
+.box-three-img-up{
+top: 8px;
+right: 8px;
+}
 
 
 /* Empowering Success */
