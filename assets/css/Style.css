@@ -250,6 +250,30 @@ bottom: 15%;
     top:10%;
     right: -50px;
 }
+.hover_traslate{
+    transition: all 300ms linear ;
+}
+.hover_traslatey{
+    transition: all 300ms linear ;
+}
+
+.hover_hero_section:hover .hover_traslate{
+    transform: translateX(8px);
+     cursor: pointer;
+}
+.hover_hero_section:hover .hover_traslatey{
+    transform: translatey(-8px);
+     cursor: pointer;
+}
+.hover_hero_mobile:hover .traslate_x_two{
+transform: translateX(8px);
+}
+.hover_hero_mobile:hover .traslate_y_two{
+transform: translatey(-8px);
+}
+.hover_hero_mobile:hover .traslate_y_two_female{
+transform: translatex(-8px);
+}
 
 /* Route Optimization */
 .Route_Optimization {
