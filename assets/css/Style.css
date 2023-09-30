@@ -156,8 +156,8 @@ ul li {
     width: 20px;
     padding: 5px;
     height: 20px;
-    left: -60px;
-    bottom: -9px;
+    left: -11px;
+    bottom: -1px;
     border-radius: 500%;
     -webkit-animation: pulsecar 2s infinite;
     animation: pulsecar 2s infinite;
@@ -169,6 +169,64 @@ ul li {
         box-shadow: 0 0 0 4px #FF0879;
     }
 }
+
+.hero-mobile-one-female{
+    top: 8px;
+    left: -52px;
+    width: 45%;
+}
+.w_180px{
+    width: 180px;
+}
+.hero-mobile-one-svg{
+    bottom:4px ;
+    left: -10px;
+}
+.hero-mobile-one-total-img{
+    top: 55%;
+    left: -81px;
+    width: 132px;
+    border-radius:8px ;
+
+}
+.hero-small-nav-bar-hero{
+top: -5px;
+right: -5px;
+}
+
+.small_nav_full_box{
+    bottom: -61px;
+    right: -55px;
+}
+
+.mobile-two-top-right-female{
+top: -5px;
+right: -15px;
+}
+.hero-mobile-two-svg{
+top: 38%;
+left: -25px;
+width: 50px;
+}
+.mobile-two-male{
+    bottom: 36px;
+    right: -32px;
+    width: 152px;
+}
+.herorightcircel{
+top: 15%;
+}
+.herorightcircel_two{
+bottom: 15%;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -526,6 +584,26 @@ footer ul li {
         grid-row: 4/5;
         grid-column: 2/3;
     }
+    .hero-mobile-one-total-img {
+        left: -64px;
+    }
+    .w_160px{
+        width: 160px !important;
+    }
+    .mobile_two_set{
+        transform: translateX(-13px);
+    }
+    .mobile-two-male-sm {
+        bottom: 46px;
+        right: -19px;
+        width: 137px;
+    }
+    .herorightcircel {
+        top: 30%;
+    }
+    .herorightcircel_two {
+        bottom: -6%;
+    }
 }
 
 @media (min-width:767.9px) {
@@ -611,12 +689,30 @@ footer ul li {
     .herorightcircel {
         top: 46% !important;
     }
+    .mobile_one_set{
+transform: translateX(30px);
+    }
+    .mobile_two_set{
+transform: translateX(-30px);
+    }
+    .mobile-two-male{
+        right: -31px !important;
+    }
+    .w_170px{
+        width: 170px !important;
+    }
 }
 
 @media (min-width:1200px) {
     .bg_big_mobile {
         background-size: 62% !important;
     }
+    .mobile_one_set{
+        transform:unset;
+            }
+            .mobile_two_set{
+        transform: unset;
+            }
 }
 
 @media (min-width:1400px) {
