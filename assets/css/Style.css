@@ -380,7 +380,9 @@ ul li {
     background-size: 65%;
     background-repeat: no-repeat;
 }
-
+.bg_black_trigger{
+    background-color: black !important;
+}
 /* Why You’ll Love Us */
 
 .LoveUs {

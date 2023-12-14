@@ -12,22 +12,22 @@
     <!-- Root Link -->
     <link rel="stylesheet" href="./assets/css/Root.css">
     <!-- aos link -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
     <!-- Bootstrap Link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
 
-<body class="overflow_hidden">
+<body class="">
     <div class="overflow-hidden">
-        <div id="preloader_box" class="overflow_hidden">
+        <!-- <div id="preloader_box" class="overflow_hidden">
             <div id="preloader" class="d-flex flex-column justify-content-center">
                 <img class="mx-auto loader" src="./assets/img/svg/SiteLogo.svg" alt="preloder" />
             </div>
         </div>
         <button onclick="topFunction()" id="myBtn" title="Go to top" class="fs_25"><img class="back_top_svg"
-                src="./assets/img/svg/back-to-top.svg" alt="image"></button>
-        <header class="bg_hero position-relative">
+                src="./assets/img/svg/back-to-top.svg" alt="image"></button> -->
+        <section class="bg_hero position-relative bg_black">
             <img class="position-absolute start-0 herorightcircel_two" src="./assets/img/svg/heroleftcircel.svg"
                 alt="image">
             <img class="position-absolute end-0 herorightcircel" src="./assets/img/svg/herorightcircel.svg" alt="image">
@@ -50,7 +50,7 @@
                                         Demo</a></li>
                             </ul>
                         </div>
-                        <button class="navbar-toggler navbarbutton"  id="btn" type="button" data-bs-toggle="collapse"
+                        <button class="navbar-toggler navbarbutton" id="btn" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -99,15 +99,18 @@
                 <div class="border_top "></div>
             </div>
             <!-- hero section -->
-            <section class="py-5 position-relative ">
+            <div class="py-5 position-relative ">
                 <img class="position-absolute hero-bg-circel" src="./assets/img/png/hero-bg-circel.png" alt="image">
                 <img class="position-absolute hero_finger_print" src="./assets/img/png/herp-finger-print-down.png"
                     alt="image">
                 <img class="position-absolute hero_finger_printtwo d-none d-lg-block"
                     src="./assets/img/png/herp-finger-print-down.png" alt="image">
+
+
                 <div class="custom_container pt-5">
                     <div class="d-sm-none d-lg-block">
-                        <div class="d-flex flex-column  flex-lg-row justify-content-center align-items-center'">
+                        <div
+                            class="d-flex flex-column  flex-lg-row justify-content-center align-items-center hero_section_animation">
                             <div class="hover_hero_section c_pointer text-center mb-5 mt-lg-4 mb-sm-0 mobile_one_set position-relative w_220px w_180px mx-auto"
                                 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300"
                                 data-aos-easing="linear">
@@ -218,103 +221,111 @@
                         </div>
                     </div>
                 </div>
-            </section>
-        </header>
+            </div>
+        </section>
         <!-- big mobile nav tabs -->
-        <section class="bg_big_mobile py-sm-5">
-            <div class="custom_container pt-4">
-                <div class="row align-items-center justify-content-center">
-                    <div class=" col-12  col-md-4">
-                        <div class="route transition_3 Route_Optimization p-3 c_pointer ms-sm-4 ms-xl-5"
-                            data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500"
-                            data-aos-easing="linear">
-                            <div class="d-flex align-items-center mb-2 pb-1">
-                                <img src="./assets/img/svg/RouteOptimization.svg" alt="image">
-                                <h2 class="mb-0 fs_14 ff_inter fw_600 color_202 ps-3">Route Optimization</h2>
-                            </div>
-                            <p class="ff_inter fw_400 fs_12 color475 mb-0">Empower your team with seamless and efficient
-                                client visit planning.</p>
-                        </div>
-                        <div class="route transition_3 Dashboards p-3 c_pointer ms-auto ms-md-0 mt-3 mt-md-4 mt-lg-5"
-                            data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600"
-                            data-aos-easing="linear">
-                            <div class="d-flex align-items-center mb-2 pb-1">
-                                <img src="./assets/img/svg/Dashboards.svg" alt="image">
-                                <h2 class="mb-0 fs_14 ff_inter fw_600 color_202 ps-3">Dashboards</h2>
-                            </div>
-                            <p class="ff_inter fw_400 fs_12 color475 mb-0">Get an overview on your whole team. View rep
-                                activity, planned client visits & sales made.</p>
-                        </div>
-                        <div class="route transition_3 Notification p-3 c_pointer mt-3 mt-md-4 mt-lg-5"
-                            data-aos="fade-right" data-aos-duration="1000" data-aos-delay="700"
-                            data-aos-easing="linear">
-                            <div class="d-flex align-items-center mb-2 pb-1">
-                                <img src="./assets/img/svg/Notification-Hub.svg" alt="image">
-                                <h2 class="mb-0 fs_14 ff_inter fw_600 color_202 ps-3">Notification Hub</h2>
-                            </div>
-                            <p class="ff_inter fw_400 fs_12 color475 mb-0">Empower your team with a dedicated internal
-                                notification platform.</p>
-                        </div>
-                        <div class="route transition_3 Unlimited c_pointer ms-auto p-3 ms-md-4 ms-xl-5 mt-3 mt-md-4 mt-lg-5"
-                            data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800"
-                            data-aos-easing="linear">
-                            <div class="d-flex align-items-center mb-2 pb-1">
-                                <img src="./assets/img/svg/Unlimited-Support.svg" alt="image">
-                                <h2 class="mb-0 fs_14 ff_inter fw_600 color_202 ps-3">Unlimited Support</h2>
-                            </div>
-                            <p class="ff_inter fw_400 fs_12 color475 mb-0">Get unlimited top notch support via one of
-                                our
-                                multiple support channels.</p>
-                        </div>
-                    </div>
-                    <div class=" col-8 col-sm-6 col-md-4 py-3 my-3 my-sm-0 py-sm-5" data-aos="zoom-in"
-                        data-aos-duration="1000" data-aos-delay="700" data-aos-easing="linear">
-                        <img class="w-100 ps-2" src="./assets/img/png/big-mobile-img.png" alt="image">
-                    </div>
-                    <div class=" col-12  col-md-4">
-                        <div class="d-flex align-items-end flex-column">
-                            <div class="route transition_3 Sales c_pointer me-auto p-3 me-md-4 me-xl-5"
-                                data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500"
+        <section class="opacity-100" id="mobile_section ">
+            <div class="bg_big_mobile py-sm-5 ">
+                <div class="custom_container pt-4">
+                    <div class="row align-items-center justify-content-center" id="mobile_section">
+                        <div class=" col-12  col-md-4">
+                            <div class="route transition_3 Route_Optimization p-3 c_pointer ms-sm-4 ms-xl-5"
+                                data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500"
                                 data-aos-easing="linear">
                                 <div class="d-flex align-items-center mb-2 pb-1">
-                                    <img src="./assets/img/svg/Sales-Orders.svg" alt="image">
-                                    <h2 class="mb-0 fs_14 ff_inter fw_600 color_202 ps-3">Sales Orders</h2>
+                                    <img src="./assets/img/svg/RouteOptimization.svg" alt="image">
+                                    <h2 class="mb-0 fs_14 ff_inter fw_600 color_202 ps-3">Route Optimization</h2>
                                 </div>
-                                <p class="ff_inter fw_400 fs_12 color475 mb-0">Supercharge sales and enable reps to
-                                    place
-                                    orders in the field & from the office.</p>
+                                <p class="ff_inter fw_400 fs_12 color475 mb-0">Empower your team with seamless and
+                                    efficient
+                                    client visit planning.</p>
                             </div>
-                            <div class="route transition_3 Tasks p-3 c_pointer mt-3 mt-md-4 mt-lg-5"
-                                data-aos="fade-left" data-aos-duration="1000" data-aos-delay="600"
+                            <div class="route transition_3 Dashboards p-3 c_pointer ms-auto ms-md-0 mt-3 mt-md-4 mt-lg-5"
+                                data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600"
                                 data-aos-easing="linear">
                                 <div class="d-flex align-items-center mb-2 pb-1">
-                                    <img src="./assets/img/svg/Tasks-Surveys.svg" alt="image">
-                                    <h2 class="mb-0 fs_14 ff_inter fw_600 color_202 ps-3">Tasks & Surveys</h2>
+                                    <img src="./assets/img/svg/Dashboards.svg" alt="image">
+                                    <h2 class="mb-0 fs_14 ff_inter fw_600 color_202 ps-3">Dashboards</h2>
                                 </div>
-                                <p class="ff_inter fw_400 fs_12 color475 mb-0">Create client specific tasks & surveys.
-                                    Ask
-                                    the right questions, and make informed decisions.</p>
+                                <p class="ff_inter fw_400 fs_12 color475 mb-0">Get an overview on your whole team. View
+                                    rep
+                                    activity, planned client visits & sales made.</p>
                             </div>
-                            <div class="route transition_3 Reporting me-auto c_pointer  me-md-0  p-3 mt-3 mt-md-4 mt-lg-5"
-                                data-aos="fade-left" data-aos-duration="1000" data-aos-delay="700"
+                            <div class="route transition_3 Notification p-3 c_pointer mt-3 mt-md-4 mt-lg-5"
+                                data-aos="fade-right" data-aos-duration="1000" data-aos-delay="700"
                                 data-aos-easing="linear">
                                 <div class="d-flex align-items-center mb-2 pb-1">
-                                    <img src="./assets/img/svg/Reporting-Library.svg" alt="image">
-                                    <h2 class="mb-0 fs_14 ff_inter fw_600 color_202 ps-3">Reporting Library</h2>
+                                    <img src="./assets/img/svg/Notification-Hub.svg" alt="image">
+                                    <h2 class="mb-0 fs_14 ff_inter fw_600 color_202 ps-3">Notification Hub</h2>
                                 </div>
-                                <p class="ff_inter fw_400 fs_12 color475 mb-0">Effortlessly access, filter, share, &
-                                    manage
-                                    company data. </p>
+                                <p class="ff_inter fw_400 fs_12 color475 mb-0">Empower your team with a dedicated
+                                    internal
+                                    notification platform.</p>
                             </div>
-                            <div class="route transition_3 Learning p-3 c_pointer me-sm-4 me-xl-5 mt-3 mt-md-4 mt-lg-5"
-                                data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800"
+                            <div class="route transition_3 Unlimited c_pointer ms-auto p-3 ms-md-4 ms-xl-5 mt-3 mt-md-4 mt-lg-5"
+                                data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800"
                                 data-aos-easing="linear">
                                 <div class="d-flex align-items-center mb-2 pb-1">
-                                    <img src="./assets/img/svg/E-Learning-Platform.svg" alt="image">
-                                    <h2 class="mb-0 fs_14 ff_inter fw_600 color_202 ps-3">E - Learning Platform</h2>
+                                    <img src="./assets/img/svg/Unlimited-Support.svg" alt="image">
+                                    <h2 class="mb-0 fs_14 ff_inter fw_600 color_202 ps-3">Unlimited Support</h2>
                                 </div>
-                                <p class="ff_inter fw_400 fs_12 color475 mb-0">Equip your team with an in-house learning
-                                    platform that delivers all-inclusive training.</p>
+                                <p class="ff_inter fw_400 fs_12 color475 mb-0">Get unlimited top notch support via one
+                                    of
+                                    our
+                                    multiple support channels.</p>
+                            </div>
+                        </div>
+                        <div class=" col-8 col-sm-6 col-md-4 py-3 my-3 my-sm-0 py-sm-5" data-aos="zoom-in"
+                            data-aos-duration="1000" data-aos-delay="700" data-aos-easing="linear">
+                            <img class="w-100 ps-2" src="./assets/img/png/big-mobile-img.png" alt="image">
+                        </div>
+                        <div class=" col-12  col-md-4">
+                            <div class="d-flex align-items-end flex-column">
+                                <div class="route transition_3 Sales c_pointer me-auto p-3 me-md-4 me-xl-5"
+                                    data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500"
+                                    data-aos-easing="linear">
+                                    <div class="d-flex align-items-center mb-2 pb-1">
+                                        <img src="./assets/img/svg/Sales-Orders.svg" alt="image">
+                                        <h2 class="mb-0 fs_14 ff_inter fw_600 color_202 ps-3">Sales Orders</h2>
+                                    </div>
+                                    <p class="ff_inter fw_400 fs_12 color475 mb-0">Supercharge sales and enable reps to
+                                        place
+                                        orders in the field & from the office.</p>
+                                </div>
+                                <div class="route transition_3 Tasks p-3 c_pointer mt-3 mt-md-4 mt-lg-5"
+                                    data-aos="fade-left" data-aos-duration="1000" data-aos-delay="600"
+                                    data-aos-easing="linear">
+                                    <div class="d-flex align-items-center mb-2 pb-1">
+                                        <img src="./assets/img/svg/Tasks-Surveys.svg" alt="image">
+                                        <h2 class="mb-0 fs_14 ff_inter fw_600 color_202 ps-3">Tasks & Surveys</h2>
+                                    </div>
+                                    <p class="ff_inter fw_400 fs_12 color475 mb-0">Create client specific tasks &
+                                        surveys.
+                                        Ask
+                                        the right questions, and make informed decisions.</p>
+                                </div>
+                                <div class="route transition_3 Reporting me-auto c_pointer  me-md-0  p-3 mt-3 mt-md-4 mt-lg-5"
+                                    data-aos="fade-left" data-aos-duration="1000" data-aos-delay="700"
+                                    data-aos-easing="linear">
+                                    <div class="d-flex align-items-center mb-2 pb-1">
+                                        <img src="./assets/img/svg/Reporting-Library.svg" alt="image">
+                                        <h2 class="mb-0 fs_14 ff_inter fw_600 color_202 ps-3">Reporting Library</h2>
+                                    </div>
+                                    <p class="ff_inter fw_400 fs_12 color475 mb-0">Effortlessly access, filter, share, &
+                                        manage
+                                        company data. </p>
+                                </div>
+                                <div class="route transition_3 Learning p-3 c_pointer me-sm-4 me-xl-5 mt-3 mt-md-4 mt-lg-5"
+                                    data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800"
+                                    data-aos-easing="linear">
+                                    <div class="d-flex align-items-center mb-2 pb-1">
+                                        <img src="./assets/img/svg/E-Learning-Platform.svg" alt="image">
+                                        <h2 class="mb-0 fs_14 ff_inter fw_600 color_202 ps-3">E - Learning Platform</h2>
+                                    </div>
+                                    <p class="ff_inter fw_400 fs_12 color475 mb-0">Equip your team with an in-house
+                                        learning
+                                        platform that delivers all-inclusive training.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -729,12 +740,16 @@
             </div>
         </footer>
     </div>
+    <!-- gsap js link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/ScrollTrigger.min.js"></script>
     <!-- Bootstrap Js Link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
     <!-- js link -->
     <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/gsap.js"></script>
     <!-- aos js link -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
