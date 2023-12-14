@@ -24,3 +24,17 @@ gsap.from("#mobile_section", {
         markers: false,
     },
 });
+// // slider 
+// let sections = gsap.utils.toArray(".slide");
+// gsap.to(sections, {
+//     xPercent: -60 * (sections.length - 1),
+//     ease: "linear",
+//     scrollTrigger: {
+//         trigger: ".horizontal_sliders",
+//         pin: true,
+//         pinSpacing: true,
+//         scrub: true,
+//         start: "top 30%",
+//         end: "bottom 70%",
+//     }
+// });
